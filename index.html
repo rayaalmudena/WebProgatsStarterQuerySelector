@@ -82,23 +82,25 @@
 
         // 2. Completa el código para cambiar el título h1 por "SuperProGats"
 
-        // document.querySelector("h1")
+         document.querySelector("h1").textContent="SuperProgats";
 
         // 3. Completa el código para mostrar por consola el contenido del segundo h3. Por la consola debe aparecer "Verónica"
 
-        // console.log(document.querySelector(""));
+        console.log(document.querySelector(".card__veronica > h3").textContent);
 
         // 4. Completa el código para mostrar por consola el valor del atributo "href" del enlace del footer. Debería aparecer "https://www.progatslagarriga.com"
 
+        document.querySelector(".footer--link").setAttribute("href", "https://www.progatslagarriga.com");
+
         // 5. Completa el código para cambiar el logo del gato por el logo ubicado en img/logo-2.jfif
 
-        // document.querySelector("");
+        document.querySelector(".header--logo").setAttribute("src","./img/logo-2.jfif");
 
         // 6. Investiga como cambiar el color de fondo del body a través de la propiedad  backGroundColor. Investiga cómo cambiar el color de fondo al valor de la variable "nuevoColor".
 
         let nuevoColor = "aliceblue";
-
-        // document.querySelector("")
+        
+        document.querySelector("body").style.backgroundColor=nuevoColor;
 
 
     </script>
